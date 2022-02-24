@@ -20,15 +20,22 @@
 
 
 
-
+    <div id="draggable" class="ui-widget-content">
+        <p>Drag me around</p>
+    </div>
 
     <div class="taskbar">
-        <div class="start"><img src="images/mlogo.png" />Start</div>
+        <button aria-haspopup="true" class="start"><img src="images/mlogo.png" />Start</button>
         <div class="time" id="time"></div>
-        <div class="task clickme">
-            M-UI v.1
-        </div>
+        <button aria-haspopup="true" class="task">M-UI V.1</button>
     </div>
+
+
+    <ul class="menu" id="menu">
+        <li><a href="javascript:;">menu item 1</a></li>
+        <li><a href="javascript:;">menu item 2</a></li>
+        <li><a href="javascript:;">menu item 3</a></li>
+    </ul>
 
     <script src="js/jquery.js"></script>
 </body>
