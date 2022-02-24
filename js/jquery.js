@@ -14,6 +14,10 @@ $(document).on("click", function(e) {
 
 /* ------------------------- draggable popup window ------------------------- */
 $(function() {
+    $("#draggable").draggable();
+});
+
+$(function() {
     $(".css-draggable-box").draggable({
         handle: ".css-draggable-title-bar",
         cancel: ".css-close-button",
