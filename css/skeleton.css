@@ -28,8 +28,30 @@
 
 /* --------------------------------- my adds -------------------------------- */
 
+.menu {
+    width: auto;
+    position: absolute;
+    display: none;
+}
+
+.ui-menu-item a {
+    text-decoration: none;
+}
+
+.ui-menu .ui-menu-item.ui-state-focus {
+    border: none;
+    background-image: none;
+    background-color: #eee;
+}
+
 .ui-menu {
     width: 150px;
+}
+
+#draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
 }
 
 .taskbar {
@@ -360,7 +382,6 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    height: 38px;
     padding: 0 30px;
     color: #555;
     text-align: center;
@@ -388,9 +409,10 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    color: #333;
+    color: rgb(0, 0, 0);
     border-color: #888;
     outline: 0;
+    background-color: rgb(146, 144, 144);
 }
 
 .button.button-primary,
