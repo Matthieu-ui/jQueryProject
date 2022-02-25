@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/normalize.css">
 
@@ -18,28 +20,17 @@
 
 <body>
     <main>
-        <div class="window" id="draggable">
-            <div class="titlebar">
-                Windows Super Pro Free Version 1997 v1.0
-                <div class="titlebar-buttons closeme">&times;</div>
-            </div>
 
 
+        <button class="appIcon" id="desktopIcon"><img src="images/mlogo.png"></button>
 
-        </div>
+
 
         <div class="taskbar">
-            <button aria-haspopup="true" class="start"><img src="images/mlogo.png" />Start</button>
+            <button id="taskbutton" class="start"><img src="images/mlogo.png" />Start</button>
             <div class="time" id="time"></div>
             <button aria-haspopup="true" class="task">M-UI V.1</button>
         </div>
-
-
-        <ul class="menu" id="menu">
-            <li><a href="javascript:;">menu item 1</a></li>
-            <li><a href="javascript:;">menu item 2</a></li>
-            <li><a href="javascript:;">menu item 3</a></li>
-        </ul>
 
 
     </main>

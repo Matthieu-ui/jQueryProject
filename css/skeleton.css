@@ -28,6 +28,24 @@
 
 /* --------------------------------- my adds -------------------------------- */
 
+@import 'https://stephanwagner.me/css/jBox/demo-html.css';
+#demo-container button {
+    margin: 0 0 15px;
+    min-width: 250px;
+}
+
+#demo-container button:last-child {
+    margin-bottom: 0;
+}
+
+.appIcon {
+    text-align: center;
+}
+
+#desktopIcon {
+    background-color: #d1d1d100;
+}
+
 .menu {
     width: auto;
     position: absolute;
