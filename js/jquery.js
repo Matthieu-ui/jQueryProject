@@ -14,16 +14,31 @@ $(document).ready(function() {
         repositionOnContent: false
     });
 
-    new jBox('Modal', {
-        attach: '#taskbutton',
+    new jBox('Tooltip', {
+        attach: '#startbutton',
         width: 220,
         title: 'start',
         overlay: false,
-        content: 'list links',
+        content: '<li><a>link</a></li><li><a>link</a></li><li><a>link</a></li>',
         draggable: false,
-        repositionOnOpen: false,
-        repositionOnContent: false,
-        offset: { x: -200, y: 280 }
+        repositionOnOpen: true,
+        repositionOnContent: true,
+        pointer: true,
+        position: { target: $('#taskbar') }
 
     });
+
+    new jBox('Tooltip', {
+        attach: '#taskbutton',
+        width: 220,
+        title: 'task',
+        overlay: false,
+        content: 'lorem ipsum',
+        draggable: false,
+        repositionOnOpen: true,
+        repositionOnContent: true
+
+    });
+
+
 });
