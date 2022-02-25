@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    // Drag with title
+    // jbox's
 
     new jBox('Modal', {
         attach: '#desktopIcon',
@@ -19,12 +19,12 @@ $(document).ready(function() {
         width: 220,
         title: 'start',
         overlay: false,
-        content: '<li><a>link</a></li><li><a>link</a></li><li><a>link</a></li>',
+        content: '<ul class="startLinks"><li><a href="matthieufelker.io">Matthieufelker.io</a></li><li><a href="github.com/matthieu-ui">GitHub</a></li></ul>',
         draggable: false,
         repositionOnOpen: true,
         repositionOnContent: true,
-        pointer: true,
-        position: { target: $('#taskbar') }
+        trigger: 'click'
+
 
     });
 
@@ -36,8 +36,21 @@ $(document).ready(function() {
         content: 'lorem ipsum',
         draggable: false,
         repositionOnOpen: true,
-        repositionOnContent: true
+        repositionOnContent: true,
+        trigger: 'click'
 
+
+    });
+
+    new jBox('Modal', {
+        attach: '#aboutsection',
+        width: 220,
+        title: 'about Matthieu-UI',
+        overlay: false,
+        content: "I'm baby polaroid crucifix banjo pork belly. Hell of lyft gluten-free roof party woke street art austin PBR&B tbh prism pop-up cold-pressed. Normcore dreamcatcher pabst irony pug. DIY chillwave la croix, try-hard irony tbh put a bird on it snackwave.",
+        draggable: 'title',
+        repositionOnOpen: false,
+        repositionOnContent: false
     });
 
 
