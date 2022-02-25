@@ -55,6 +55,20 @@
     left: 50px;
 }
 
+.appIcon1 {
+    text-align: center;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+
+.appIcon2 {
+    text-align: center;
+    position: absolute;
+    top: 410px;
+    left: 50px;
+}
+
 .app :hover {
     border: 1px solid gray;
     padding: auto;
@@ -372,6 +386,8 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
     font-size: 62.5%;
     width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 242, 0, 0.885) 50%, rgba(123, 119, 208, 0.994) 50%, blue 100%);
 }
 
 body {
