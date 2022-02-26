@@ -30,9 +30,9 @@ $(document).ready(function() {
     new jBox('Modal', {
         attach: '#desktopIcon2',
         width: 220,
-        title: 'A textbox',
+        title: 'ERROR 23897465',
         overlay: false,
-        content: ';ksdfuhg',
+        content: ' Trust fund pour-over mustache master cleanse poke twee. Listicle retro drinking vinegar semiotics, before they sold out truffaut mumblecore adaptogen four loko. Mlkshk marfa single-origin coffee polaroid neutra, XOXO meh keytar salvia tumeric shabby chic taiyaki. Taxidermy listicle YOLO readymade fashion axe sartorial. Affogato pok pok locavore tattooed craft beer etsy, lyft fanny pack pickled marfa.',
         draggable: 'title',
         repositionOnOpen: false,
         repositionOnContent: false
