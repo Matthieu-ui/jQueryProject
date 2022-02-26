@@ -1,8 +1,13 @@
 $(function() {
     $(".window").draggable({
-        handle: '.titlebar'
+        handle: '.titlebar',
+
     });
+
+
 });
+
+
 
 $('.clickme').toggleClass("active");
 
