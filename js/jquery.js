@@ -44,7 +44,7 @@ $(document).ready(function() {
         width: 220,
         title: '<h5><b>Start</b></h5>',
         overlay: false,
-        content: '<ul class="startLinks"><li><a href="matthieufelker.io">Matthieufelker.io</a></li><li><a href="github.com/matthieu-ui">GitHub</a></li><li><a href="projectpage.html">Home</a></li></ul>',
+        content: '<ul class="startLinks"><li><a href="https://matthieufelker.io">Matthieufelker.io</a></li><li><a href="https://github.com/matthieu-ui">GitHub</a></li><li><a href="projectpage.html">Home</a></li></ul>',
         draggable: false,
         repositionOnOpen: true,
         repositionOnContent: true,

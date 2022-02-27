@@ -433,7 +433,7 @@ body {
     color: #222;
     width: 960px;
     background-color: #D1D1D1;
-    background: linear-gradient(180deg, rgba(255, 242, 0, 0.885) 50%, rgba(123, 119, 208, 0.994) 50%, blue 100%);
+    background: linear-gradient(180deg, rgba(38, 28, 230, 0.885) 50%, rgba(232, 197, 0, 0.994) 50%, rgb(229, 255, 0) 100%);
 }
 
 
